@@ -1,0 +1,20 @@
+Algoritmo "nome_sobrenome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Ricardo Corrêa e Lucas Calu
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 06/03/2024
+Var
+// Seção de Declarações das variáveis
+idade: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   ESCREVAL("Digite sua idade: ")
+   LEIA(idade)
+   SE (idade > 18) ENTAO
+     ESCREVAL ("Status = Maior de idade ")
+   SENAO
+     ESCREVAL ("Status = Menor de idade ")
+   FIMSE
+Fimalgoritmo
