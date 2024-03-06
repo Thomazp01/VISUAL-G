@@ -1,0 +1,25 @@
+Algoritmo "nome_sobrenome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Ricardo Corrêa e Lucas Calu
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 06/03/2024
+Var
+// Seção de Declarações das variáveis
+num1: inteiro
+num2: inteiro
+num3: inteiro
+media: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   ESCREVAL("Digite o 1° número: ")
+   LEIA(num1)
+   ESCREVAL ("Digite o 2° número: ")
+   LEIA(num2)
+   ESCREVAL ("Digital o 3° númaro: ")
+   LEIA(num3)
+   media <- (num1 + num2 + num3) /3
+   ESCREVAL("A media dos dois numero é", media)
+
+Fimalgoritmo
