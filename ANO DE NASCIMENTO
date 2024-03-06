@@ -1,0 +1,30 @@
+Algoritmo "nome_sobrenome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Ricardo Corrêa e Lucas Calu
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 06/03/2024
+Var
+// Seção de Declarações das variáveis
+nome: caractere
+sobrenome:caractere
+idade: inteiro
+ano_nascimento: inteiro
+ano_atual: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+   ESCREVAL("Digite seu nome: ")
+   LEIA(nome)
+   ESCREVAL ("Digite seu sobrenome: ")
+   LEIA(sobrenome)
+   ESCREVAL("Digite sua idade: ")
+   LEIA(idade)
+   ESCREVAL( "Digite o ano atual")
+   LEIA (ano_atual)
+   ano_nascimento <- ano_atual - idade
+   ESCREVAL
+   ESCREVAL("----------------------------------")
+   ESCREVAL ("Então você se chama ", nome, " ", sobrenome, ", nascido em ", ano_nascimento, "?")
+
+Fimalgoritmo
