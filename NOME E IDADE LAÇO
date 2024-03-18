@@ -1,0 +1,21 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 18/03/2024
+Var
+// Seção de Declarações das variáveis 
+NOME: INTEIRO
+IDADE: INTEIRO
+
+Inicio
+ PARA IDADE DE 1 ATE 5 FAÇA
+    ESCREVAL ("Qual o seu nome? :", NOME)
+    LEIA(NOME)
+    ESCREVAL ("Qual sua idade :", IDADE)
+    LEIA(IDADE)
+    ESCREVAL ("Nome = ", NOME, "idade = ", idade)
+    FIMPARA
+
+Fimalgoritmo
